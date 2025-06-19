@@ -11,7 +11,7 @@ except:
     print("error in input")
     exit()
 
-a = ang * 3.1416 / 180  # deg to rad i think
+a = ang * 3.1416 / 180
 vx = v * np.cos(a)
 vy = v * np.sin(a)
 
